@@ -7,8 +7,8 @@ metadata:
 spec:
   eventSources:
   - kind: GitRepository
-    name: '*'
+    name: my-repo
   - kind: Kustomization
-    name: '*'
+    name: my-kustomization
   providerRef:
     name: naw-provider
